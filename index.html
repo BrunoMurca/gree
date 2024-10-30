@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider com Navegação</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <img src="imagens/logo-cob-branco.svg" alt="Logo">
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="slider/100423-Gree-Banner-para-site-Net.png" alt="Slide 1"></div>
+            <div class="slide"><img src="slider/115175.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="slider/85749.jpg" alt="Slide 3"></div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+      <!-- Galaeria de Images  -->
+      <div class="image-galeria">
+        <div class="image-item">
+            <img src="imagens/image-3.png" alt="Image 4">
+            <div class="image-sobreposto">
+                <div class="sobreposto-text">Produto de excelente qualidade</div>
+            </div>
+        </div>
+        <div class="image-item">
+            <img src="imagens/image-1.png" alt="Image 5">
+            <div class="image-sobreposto">
+                <div class="sobreposto-text">Produto de excelente qualidade</div>
+            </div>
+        </div>
+        <div class="image-item">
+            <img src="imagens/image-2.png" alt="Image 6">
+            <div class="image-sobreposto">
+                <div class="sobreposto-text">Produto de excelente qualidade</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/slider.js"></script>
+</body>
+</html>
